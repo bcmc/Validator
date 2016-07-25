@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2012 sp1 (http://www.altova.com) by MOE User (DHS NSD) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1" xmlns:stixCommon="http://stix.mitre.org/common-1" xmlns:CISCP="http://us-cert.gov/ciscp" targetNamespace="http://us-cert.gov/ciscp" elementFormDefault="qualified" version="0" xml:lang="English">
-	<xs:import namespace="http://stix.mitre.org/default_vocabularies-1" schemaLocation="http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.0/stix_default_vocabularies.xsd"/>
-	<xs:import namespace="http://stix.mitre.org/common-1" schemaLocation="http://stix.mitre.org/XMLSchema/common/1.1/stix_common.xsd"/>
+	<xs:import namespace="http://stix.mitre.org/default_vocabularies-1" schemaLocation="stix/stix_default_vocabularies.xsd"/>
+	<xs:import namespace="http://stix.mitre.org/common-1" schemaLocation="stix/stix_common.xsd"/>
 	<xs:complexType name="IndicatorTypeVocab-0.0">
 		<xs:annotation>
 			<xs:documentation>
 					The IndicatorTypeVocab is the is a CISCP extension to the default STIX vocabulary for expressing indicator types.
-				
+
 					Note that this vocabulary is under development. Feedback is appreciated and should be sent to the CISCP
 				</xs:documentation>
 		</xs:annotation>
