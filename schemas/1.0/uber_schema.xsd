@@ -114,7 +114,7 @@
   <import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="stix/external/cvrf_1.1/dc.xsd"/>
   <import namespace="http://www.icasi.org/CVRF/schema/prod/1.1" schemaLocation="stix/external/cvrf_1.1/prod.xsd"/>
   <import namespace="http://scap.nist.gov/schema/scap-core/1.0" schemaLocation="stix/external/cvrf_1.1/scap-core_0.9.xsd"/>
-  <import namespace="http://www.icasi.org/CVRF/schema/vuln/1.1" schemaLocation="stix/external/cvrf_1.1/vuln.xsd"/>  
+  <import namespace="http://www.icasi.org/CVRF/schema/vuln/1.1" schemaLocation="stix/external/cvrf_1.1/vuln.xsd"/>
   <import namespace="http://maec.mitre.org/XMLSchema/maec-bundle-4" schemaLocation="stix/external/maec_4.0/maec_bundle_schema.xsd"/>
   <import namespace="http://maec.mitre.org/XMLSchema/maec-package-2" schemaLocation="stix/external/maec_4.0/maec_package_schema.xsd"/>
    <import namespace="http://xml/metadataSharing.xsd" schemaLocation="stix/external/maec_4.0/metadataSharing.xsd"/>
@@ -131,5 +131,5 @@
   <import namespace="http://oval.mitre.org/XMLSchema/oval-definitions-5" schemaLocation="stix/external/oval_5.10/oval-definitions-schema.xsd"/>
   <import namespace="http://oval.mitre.org/XMLSchema/oval-variables-5" schemaLocation="stix/external/oval_5.10/oval-variables-schema.xsd"/>
   <import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="stix/external/oval_5.10/xmldsig-core-schema.xsd"/>
-  <import namespace="http://us-cert.gov/ciscp" schemaLocation="ciscp_vocab.xsd"/>
+  <import namespace="http://us-cert.gov/ciscp" schemaLocation="ciscp_vocab_v1.0.xsd"/>
 </schema>

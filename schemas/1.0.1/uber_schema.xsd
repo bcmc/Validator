@@ -132,5 +132,5 @@
   <import namespace="http://oval.mitre.org/XMLSchema/oval-definitions-5" schemaLocation="stix/external/oval_5.10/oval-definitions-schema.xsd"/>
   <import namespace="http://oval.mitre.org/XMLSchema/oval-variables-5" schemaLocation="stix/external/oval_5.10/oval-variables-schema.xsd"/>
   <import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="stix/external/oval_5.10/xmldsig-core-schema.xsd"/>
-  <import namespace="http://us-cert.gov/ciscp" schemaLocation="ciscp_vocab.xsd"/>
+  <import namespace="http://us-cert.gov/ciscp" schemaLocation="ciscp_vocab_v1.0.1.xsd"/>
 </schema>
