@@ -6,4 +6,4 @@
 `jar cvf STIX_Validator.jar \*`
 
 ### To update schemas:
-All of the schemas have offline, relative path references to their schema locations. If you add schemas, you must ensure the schema locations include relative references to their dependencies.
+All of the schemas have offline, relative path references to their schema locations. If you add schemas, you must ensure the schema locations include relative references to their dependencies. After adding or modifying your schemas in their appropriate folders (the client will only support the supplied versions of STIX), follow the instructions above to recreate the jar. 
